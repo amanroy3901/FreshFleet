@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FreshFleet" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/tonnedtiger_orange</item>
+    </style>
+
+    <style name="Theme.FreshFleet" parent="Base.Theme.FreshFleet" />
+
+    <style name="Theme.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splashColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round_adaptive_fore</item>
+        <item name="postSplashScreenTheme">@style/Theme.FreshFleet</item>
+        <item name="windowSplashScreenAnimationDuration">120000</item>
+    </style>
+</resources>

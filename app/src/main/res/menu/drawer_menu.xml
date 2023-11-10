@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favIcon"
+        android:title="favuorite"
+        android:icon="@drawable/icon_favorite"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cartIcon"
+        android:title="Cart"
+        android:icon="@drawable/shopping_cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/cart_action_item"/>
+    <!-- Add more items as needed -->
+
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/transparent"
+    android:layout_margin="32dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- Options -->
+
+        <TextView
+
+            android:id="@+id/optionFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Food"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/optionBeverages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionFood"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Beverages"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/optionPooja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionBeverages"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Pooja Daily Needs"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/optionElectronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionPooja"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Electronic Items"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/optionHygiene"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionElectronic"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Hygiene Essentials"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/optionAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionHygiene"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:text="Show All"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+    <!-- Close icon -->
+    <ImageButton
+        android:id="@+id/closeIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/optionElectronic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/tonnedtiger_orange"
+        android:src="@drawable/icon_close_fill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

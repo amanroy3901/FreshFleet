@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1B1B1B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tonnedtiger_orange">#ff861c</color>
+    <color name="canary_yellow">#edb037</color>
+    <color name="tomato">#ff6340</color>
+    <color name="dustyGray">#bfbfbf</color>
+    <color name="splashColor">#E0CDAC</color>
+
+</resources>
